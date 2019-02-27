@@ -1,5 +1,5 @@
 
-# Are we doing it wrong?
+# One step close to using Python properly
 
 **Interactive version** here (it may take a few seconds to load): 
 [![Binder](https://mybinder.org/badge_logo.svg)][5]
