@@ -2,7 +2,7 @@
 # Are we doing it wrong?
 
 **Interactive version** here (it may take a few seconds to load): 
-[![Binder](https://mybinder.org/badge_logo.svg)][2]
+[![Binder](https://mybinder.org/badge_logo.svg)][5]
 
 
 ## Content
@@ -44,6 +44,7 @@ Everytime you see the python logo somewhere, this means there is a link to the d
 [2]: https://stackoverflow.com/questions/tagged/python
 [3]: mailto:christian.glacet+python@gmail.com
 [4]: https://docs.python.org/3/library/stdtypes.html#str.lower
+[5]: https://mybinder.org/v2/gh/cglacet/Blog/master?filepath=python%2Fnotes.ipynb
 
 
 ```python
