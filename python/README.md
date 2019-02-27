@@ -4,6 +4,8 @@
 **Interactive version** here (it may take a few seconds to load): 
 [![Binder](https://mybinder.org/badge_logo.svg)][5]
 
+Using the interactive version is strongly advised as you'll be able to add your own test along the way without having to rewrite all the code.
+
 
 ## Content
 
@@ -20,15 +22,16 @@ In most cases I'll present a problem, give a first implementation and progressiv
 
 Note that everything is more or less in arbitrary order (even though I'll try to maintain a complexity order), you can use the following indexes if you are looking for a specific subject.
 
-Everytime you see the python logo somewhere, this means there is a link to the documentation:
+Everytime you see the python logo somewhere, this means there is a link to the documentation of that particular function/method/class:
 
 > **str.lower()** [<img src="images/py.png" style="display: inline; margin: 0 4px;" />][4]
 
 ## Topics Index
 
 * **Built-in functions** [enumerate()](#enumerate_1), 
-* **Built-in types** [set()](#set_1), [tuple()](#type_tuple_1)
-* **Asynchronous** [async-await](#async-await), [asyncio](#asyncio)
+* **Built-in types** [range()](#range_1), [set()](#set_1), [tuple()](#type_tuple_1)
+* **Asynchronous modules** [async-await](#async-await), [asyncio](#asyncio)
+* **Other modules** [timeit](#timeit_1)
 
 ## Paradigms/design patterns index
 
@@ -45,19 +48,6 @@ Everytime you see the python logo somewhere, this means there is a link to the d
 [3]: mailto:christian.glacet+python@gmail.com
 [4]: https://docs.python.org/3/library/stdtypes.html#str.lower
 [5]: https://mybinder.org/v2/gh/cglacet/Blog/master?filepath=python%2Fnotes.ipynb
-
-
-```python
-TODO: introduce list comprehensions
-```
-
-
-      File "<ipython-input-290-55b19f306a34>", line 1
-        TODO: introduce list comprehensions
-                           ^
-    SyntaxError: invalid syntax
-
-
 
 # Finding vowels and their position in a string
 
@@ -127,7 +117,7 @@ items = set([[1, 2, 3], [4, 5]])
 
     TypeError               Traceback (most recent call last)
 
-    <ipython-input-184-ea16244b3429> in <module>
+    <ipython-input-384-ea16244b3429> in <module>
     ----> 1 items = set([[1, 2, 3], [4, 5]])
     
 
@@ -170,20 +160,9 @@ items = set([item_a, item_b])
 
 
 
-Note that since sets items are immutable, if `(1, 2, 3) in items` evaluates to `True` then it will always be evaluated to `True` (unless it is removed from the `items` set of course).
+Note that since sets items are immutable, if `(1, 2, 3) in items` evaluates to `True` then it will *ALWAYS* be evaluated to `True` (unless it is removed from the `items` set of course).
 
-
-```python
-print((1, 2, 3) in items)
-item_a = "test"
-print((1, 2, 3) in items)
-```
-
-    True
-    True
-
-
-As always immutability comes with benefits, mainly: *it is safe to use as you know nothing will ever modify your objects*. But it also has its down sides, mainly: *people are usually not used to it* and *in some cases it's less performant*. Just to make sure we agree on what immutability is, I'll talk a little bit about it in the next section (or you can just [skip it](#) if you already know what immutability implies).
+As always immutability comes with benefits, mainly: *it is safe to use as you know nothing will ever modify your objects*. But it also has its down sides, mainly: *people are usually not used to it* and *in some cases it's less performant*. Just to make sure we agree on what immutability is, I'll talk a little bit about it in the next section (or you can just [skip it](#Immutable-sequence-implementation) if you already know what immutability implies).
 
 # Immutability
 
@@ -320,10 +299,22 @@ The error we made is to modify the clients input `vowels` inside `print_using_wo
 
 **Having immutable objects is the guarantee for us that this will NEVER happen**, and never is really important because that what allow us to have no fear and focus on the important stuff instead of wondering how things could eventually turn bad. Immutability is an insurance to make your code safer, to give you control over your instances' values (in particular when instances are accessed concurently, we will see an example of that in the [async-await](#async-await) section). At that point you're probably asking yourself why isn't everyone using immutable objects everywhere? The main reason is performances issues, depending on what you want to do with your objects, making them immutable can have a big cost. Like always, when picking a data structure you need to chose it carefully depending on what you plan to do with it.
 
-Here is a python example in which using tuples instead of lists is very costly:
 
+Here is a python example in which using tuples instead of lists is very costly. In this example we will use a very useful function (generator) called `range` together with `timeit`.
 
-[1]: http://www.numpy.org/
+**class range(stop) — class range(start, stop[, step])** 
+<a id='range_1'></a>
+[<img src="images/py.png" style="display: inline; margin: 0 4px;" />][1]
+
+**timeit.timeit(stmt='pass', setup='pass', timer=<default timer>, number=1000000, globals=None)**
+<a id='timeit_1'></a>
+[<img src="images/py.png" style="display: inline; margin: 0 4px;" />][2]
+    
+
+*The `timeit` function will not be used directly here as Jupyter offers a tool that interact better with our notebook here, but the principle is the same.*
+
+[1]: https://docs.python.org/3.5/library/stdtypes.html#range
+[2]: https://docs.python.org/3.5/library/timeit.html
 
 
 ```python
@@ -351,10 +342,10 @@ print("\nTuple: ")
 ```
 
     List: 
-    1.16 ms ± 8.85 µs per loop (mean ± std. dev. of 5 runs, 1000 loops each)
+    1.02 ms ± 6.72 µs per loop (mean ± std. dev. of 5 runs, 1000 loops each)
     
     Tuple: 
-    157 ms ± 2.33 ms per loop (mean ± std. dev. of 5 runs, 10 loops each)
+    161 ms ± 2.98 ms per loop (mean ± std. dev. of 5 runs, 10 loops each)
 
 
 On the flip side, a use case in which using tuples (or "any" immutable object) has almost no cost is when dealing with a "few" number of arbitrary sized updates. This is for example well suited to maitaining a global state that reacts on calls from an API or a evel slowers calls from a humain interacting with you application. That's the reason why libraries like [React Native.js][1] are using immutable [states][2]. Here is what a python utility for updating states could look like in two cases, where the application state is either a `list` or a `tuple`: 
@@ -387,11 +378,11 @@ print("\nTuple: updating state")
 %timeit -r 5 tuple_state_update(prev_state, update_state_with)
 ```
 
-    List: 
-    42.7 µs ± 541 ns per loop (mean ± std. dev. of 5 runs, 10000 loops each)
+    List: updating state
+    42.9 µs ± 707 ns per loop (mean ± std. dev. of 5 runs, 10000 loops each)
     
-    Tuple: 
-    47.4 µs ± 546 ns per loop (mean ± std. dev. of 5 runs, 10000 loops each)
+    Tuple: updating state
+    48.8 µs ± 399 ns per loop (mean ± std. dev. of 5 runs, 10000 loops each)
 
 
 ### Concluding remarks
@@ -409,7 +400,7 @@ We are also here to talk about python, not only abstract concepts, so, how is im
 
 As an exercise we will implement a `Tuple` class built on top of the existing `list` class. We will only do this for the example, therfore we won't implement all methods from `list` but just some to demonstrate the basic idea.
 
-We will use python's "[**\_\_magic_methods\_\_**][1]" which can be quickly described this way:
+We will use python's "[**\_\_magic_methods\_\_**][1]" which can roughly be described this way:
 
 > The so-called magic methods have nothing to do with wizardry. You have already seen them in previous chapters of our tutorial. They are special methods with fixed names. They are the methods with this clumsy syntax, i.e. the double underscores at the beginning and the end. They are also hard to talk about. How do you pronounce or say a method name like `__init__`? *"Underscore underscore init underscore underscore"* sounds horrible and is nearly a tongue twister. *"Double underscore init double underscore"* is a lot better, but the ideal way is *"dunder init dunder"* That's why magic methods methods are sometimes called **dunder methods**! 
 >
@@ -499,7 +490,7 @@ b[0] = 0
 
     TypeError               Traceback (most recent call last)
 
-    <ipython-input-374-0effaf36e17e> in <module>
+    <ipython-input-400-0effaf36e17e> in <module>
           1 b = tuple([1, 2, 3])
     ----> 2 b[0] = 0
     
@@ -526,13 +517,13 @@ a[0] = 0
 
     TypeError               Traceback (most recent call last)
 
-    <ipython-input-375-07194df93462> in <module>
+    <ipython-input-401-07194df93462> in <module>
           4 
           5 a = BetterTuple([1, 2, 3])
     ----> 6 a[0] = 0
     
 
-    <ipython-input-375-07194df93462> in __setitem__(self, key, value)
+    <ipython-input-401-07194df93462> in __setitem__(self, key, value)
           1 class BetterTuple(Tuple):
           2     def __setitem__(self, key, value):
     ----> 3         raise TypeError(f"'{type(self).__name__}' object does not support item assignment.")
@@ -629,19 +620,6 @@ print("\nPython tuple: ")
 print("\nOur Tuple: ")
 %timeit -r 5 one_large_increment(Tuple)
 ```
-
-    Python tuple: 
-    1.18 ms ± 21.6 µs per loop (mean ± std. dev. of 5 runs, 1000 loops each)
-    
-    Our Tuple: 
-    4.55 ms ± 102 µs per loop (mean ± std. dev. of 5 runs, 100 loops each)
-    
-    Python tuple: 
-    47.2 µs ± 548 ns per loop (mean ± std. dev. of 5 runs, 10000 loops each)
-    
-    Our Tuple: 
-    56.8 µs ± 637 ns per loop (mean ± std. dev. of 5 runs, 10000 loops each)
-
 
 If you are interested in more complex immutable data structures you can also have a look at [zippers][1], this article explains what zippers are, why/when they are usefull and also how to build one in python.
 
