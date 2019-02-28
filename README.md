@@ -3,11 +3,11 @@
 ## Notes relative to computer programming
 
 * **ES6 / React / React native**
-  * [Create a theming tool](react-native/theme-provider/create_a_theming_tool.md)
+  * [Create a theming tool](react-native/theme-provider/create_a_theming_tool.md#-create-a-theming-tools-for-react-native)
 
 * **Python**
   * [One step closer to using Python properly](python#one-step-closer-to-using-python-properly)
-  * [Exercism.io](https://github.com/cglacet/exercism-python#exercism-python)
+  * [My solutions to exercism.io problems](https://github.com/cglacet/exercism-python#exercism-python)
 
 ## Scientific Publications
 
