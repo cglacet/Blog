@@ -2,7 +2,7 @@
 
 ## About me 
 
-You can find me under either the alias **cglacet** or my real name on various websites
+You can find me either under the alias **cglacet** or using my real name on various communities
 [<img src="images/github.ico" height="20"  />][cglacet@github]
 [<img src="images/stackoverflow.ico" height="20" />][cglacet@stackoverflow]
 [<img src="images/dblp.ico" height="20"  />][cglacet@dblp]
@@ -27,14 +27,12 @@ I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph
     * and of course puzzle and riddles of any kind... yes this is related to computer science :D
  * My favorite github repository: [pytudes][pytudes] by [Peter Norvig][norvig]
  * My favorite riddle so far is the [100 Prisoners and A light Bulb][100 prisoners] 
+ * My favorite programming language is Python
 </details>
 
 ## Notes relative to computer programming
 
-* **ES6 / React / React native**
-  * [Create a theming tool](react-native/theme-provider/create_a_theming_tool.md#-create-a-theming-tools-for-react-native)
-  * Stackoverflow questions/answers: 
-    * [immutability and components props in React native (vs. React)][stackoverflow react props]
+I'm currently working using both python and react-native, this is what I'm currently spending my time on and therefore this will be the most active part of this blog for the years to come:
 
 * **Python**
   * [One step closer to using Python properly](python#one-step-closer-to-using-python-properly)
@@ -44,6 +42,11 @@ I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph
     * [Python How to force object instantiation via Context Manager?][stackoverflow python context manager]
     * [What can cause the simple invocation of asyncio.new_event_loop() to hang?][stackoverflow python synchronize]
     * [Code review: currying a function][codereview python currying]
+
+* **ES6 / React / React native**
+  * [Create a theming tool](react-native/theme-provider/create_a_theming_tool.md#-create-a-theming-tools-for-react-native)
+  * Stackoverflow questions/answers: 
+    * [immutability and components props in React native (vs. React)][stackoverflow react props]
 
 ## Scientific Publications
 
