@@ -1,4 +1,4 @@
-# Links toward different kinds or articles/notes on various subjects
+# My publications/notes on various subjects
 
 ## Notes relative to computer programming
 
