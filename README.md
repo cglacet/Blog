@@ -35,7 +35,7 @@ I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph
 I'm currently working using both python and react-native, this is what I'm currently spending my time on and therefore this will be the most active part of this blog for the years to come:
 
 * **Python**
-  * [One step closer to using Python properly](python#one-step-closer-to-using-python-properly)
+  * [One step closer to using Python properly](python#one-step-closer-to-using-python-properly) (try the [interactive notebook version][interactive])
   * [My solutions to exercism.io problems](https://github.com/cglacet/exercism-python#exercism-python)
   * Stackoverflow questions/answers: 
     * [Implementing a Generator for Sequences of Lookahead Pairs][stackoverflow python zip_longest]
@@ -82,6 +82,8 @@ Publications ordered by themes then descending date of publication, but first, i
   
   
 <!---------------LINKS--------------->
+[interactive]: https://mybinder.org/v2/gh/cglacet/Blog/master?filepath=python%2Fnotes.ipynb
+
 [cglacet@stackoverflow]: https://stackoverflow.com/users/1720199/cglacet
 [cglacet@exercism.io]: https://exercism.io/profiles/cglacet
 [cglacet@github]: https://github.com/cglacet
