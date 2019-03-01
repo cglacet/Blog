@@ -44,6 +44,7 @@ I'm currently working using both python and react-native, this is what I'm curre
   * [One step closer to using Python properly](python#one-step-closer-to-using-python-properly) (try the [interactive notebook version][interactive])
   * [My solutions to exercism.io problems](https://github.com/cglacet/exercism-python#exercism-python)
   * Stackoverflow questions/answers: 
+    * [Flatten an irregular nested lists][stackoverflow python flatten nested lists]
     * [Implementing a Generator for Sequences of Lookahead Pairs][stackoverflow python zip_longest]
     * [Python How to force object instantiation via Context Manager?][stackoverflow python context manager]
     * [What can cause the simple invocation of asyncio.new_event_loop() to hang?][stackoverflow python synchronize]
@@ -52,7 +53,8 @@ I'm currently working using both python and react-native, this is what I'm curre
 * **ES6 / React / React native**
   * [Create a theming tool](react-native/theme-provider/create_a_theming_tool.md#-create-a-theming-tools-for-react-native)
   * Stackoverflow questions/answers: 
-    * [immutability and components props in React native (vs. React)][stackoverflow react props]
+    * [Immutability and components props in React native (vs. React)][stackoverflow react props]
+    * [React Native animation isn't smooth][stackoverflow react native animation]
 
 ## Scientific Publications
 
@@ -174,14 +176,15 @@ Publications ordered by themes then descending date of publication, but first, i
 [mario np hard]: https://arxiv.org/pdf/1203.1895.pdf
 [religion and babies]: https://www.youtube.com/watch?v=ezVk1ahRF78
 [how not to be ignorant]: https://www.youtube.com/watch?v=Sm5xF-UYgdg
-
 [100 prisoners]: https://sites.math.washington.edu/~morrow/336_11/papers/yisong.pdf
-    
-[stackoverflow react props]: https://stackoverflow.com/q/54825692/1720199
+ 
+[stackoverflow python flatten nested lists]: https://stackoverflow.com/a/51649649/1720199
 [stackoverflow python zip_longest]: https://stackoverflow.com/a/54848488/1720199
 [stackoverflow python context manager]: https://stackoverflow.com/a/54514410/1720199
 [stackoverflow python synchronize]: https://stackoverflow.com/a/54836393/1720199
 [codereview python currying]: https://codereview.stackexchange.com/q/214141/172628
+[stackoverflow react props]: https://stackoverflow.com/q/54825692/1720199
+[stackoverflow react native animation]: https://stackoverflow.com/a/51106202/1720199
 
 [bépo]: https://bepo.fr/wiki/Accueil
 [azerty]: https://www.wikiwand.com/fr/AZERTY
