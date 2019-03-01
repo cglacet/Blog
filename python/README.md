@@ -1,4 +1,5 @@
 
+<a id='begining'></a>
 [< go back to home](https://github.com/cglacet/Blog)
 
 # One step closer to using Python properly
