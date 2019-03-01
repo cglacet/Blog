@@ -1,6 +1,6 @@
 
 <a id='begining'></a>
-[< go back to home](https://github.com/cglacet/Blog)
+[< go back to home](https://github.com/cglacet/Blog#my-publicationsnotes-on-various-subjects)
 
 # One step closer to using Python properly
 
