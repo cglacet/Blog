@@ -47,7 +47,7 @@ I'm currently working using both python and react-native, this is what I'm curre
     * [Implementing a Generator for Sequences of Lookahead Pairs][stackoverflow python zip_longest]
     * [Python How to force object instantiation via Context Manager?][stackoverflow python context manager]
     * [What can cause the simple invocation of asyncio.new_event_loop() to hang?][stackoverflow python synchronize]
-    * [Code review: currying a function][codereview python currying]
+    * [Code review: currying a function][codereview python currying] (with an [incredible answer](https://codereview.stackexchange.com/a/214197/172628))
 
 * **ES6 / React / React native**
   * [Create a theming tool](react-native/theme-provider/create_a_theming_tool.md#-create-a-theming-tools-for-react-native)
