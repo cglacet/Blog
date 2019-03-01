@@ -25,9 +25,15 @@ I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph
     * computational complexity,
     * design patterns and programming paradigms,
     * and of course puzzle and riddles of any kind... yes this is related to computer science :D
- * My favorite github repository: [pytudes][pytudes] by [Peter Norvig][norvig]
- * My favorite riddle so far is the [100 Prisoners and A light Bulb][100 prisoners] 
- * My favorite programming language is Python
+ * My native language is French but I also know English
+ * My native keyboard disposition is [azerty][azerty] but I also know [bépo][bépo]
+ * My all time favorites:
+   * github repository is [pytudes][pytudes] by [Peter Norvig][norvig].
+   * riddle is the [100 Prisoners and A light Bulb][100 prisoners].
+   * programming language is Python.
+   * proof is [Mario bros is NP-hard][mario np hard]
+   * talk is [How not to be ignorant][how not to be ignorant]
+     (from the same speaker: [Religions and babies][religion and babies])
 </details>
 
 ## Notes relative to computer programming
@@ -165,6 +171,9 @@ Publications ordered by themes then descending date of publication, but first, i
 
 [pytudes]: https://github.com/norvig/pytudes#pytudes
 [norvig]: http://norvig.com/
+[mario np hard]: https://arxiv.org/pdf/1203.1895.pdf
+[religion and babies]: https://www.youtube.com/watch?v=ezVk1ahRF78
+[how not to be ignorant]: https://www.youtube.com/watch?v=Sm5xF-UYgdg
 
 [100 prisoners]: https://sites.math.washington.edu/~morrow/336_11/papers/yisong.pdf
     
@@ -173,3 +182,6 @@ Publications ordered by themes then descending date of publication, but first, i
 [stackoverflow python context manager]: https://stackoverflow.com/a/54514410/1720199
 [stackoverflow python synchronize]: https://stackoverflow.com/a/54836393/1720199
 [codereview python currying]: https://codereview.stackexchange.com/q/214141/172628
+
+[bépo]: https://bepo.fr/wiki/Accueil
+[azerty]: https://www.wikiwand.com/fr/AZERTY
