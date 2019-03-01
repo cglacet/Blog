@@ -41,7 +41,7 @@ I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph
 I'm currently working using both python and react-native, this is what I'm currently spending my time on and therefore this will be the most active part of this blog for the years to come:
 
 * **Python**
-  * [One step closer to using Python properly](python#one-step-closer-to-using-python-properly) (try the [interactive notebook version][interactive])
+  * [One step closer to using Python properly](python#begining) (try the [interactive notebook version][interactive])
   * [My solutions to exercism.io problems](https://github.com/cglacet/exercism-python#exercism-python)
   * Stackoverflow questions/answers: 
     * [Flatten an irregular nested lists][stackoverflow python flatten nested lists]
