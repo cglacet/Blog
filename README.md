@@ -110,40 +110,42 @@ Publications ordered by themes then descending date of publication, but first, i
   * C Glacet, A Miller, A Pelc. 
   Compromis temps-information pour l'élection de leader dans des arbres anonymes. 
   Rencontres Francophones sur les Aspects Algorithmiques des Télécommunications — 
-  **ALGOTEL 2016** [[PDF]](https://hal.archives-ouvertes.fr/hal-01303693/document)
+  [**ALGOTEL 2016**](http://hal.archives-ouvertes.fr/ALGOTEL2016/) [[PDF]](https://hal.archives-ouvertes.fr/hal-01303693/document)
 
   * C. Glacet, N. Hanusse and D. Ilcinkas. 
   Router sur internet avec moins de quinze entrées. 
   Rencontres Francophones pour les Aspects Algorithmiques des Télécommunications — 
-  **ALGOTEL 2015** [[PDF]](https://hal.archives-ouvertes.fr/hal-01149335/document)
+  [**ALGOTEL 2015**](http://hal.archives-ouvertes.fr/ALGOTEL2015/) [[PDF]](https://hal.archives-ouvertes.fr/hal-01149335/document)
   
   * C. Glacet, N. Hanusse and D. Ilcinkas. 
   Impact de la dynamique sur la fiabilité d’informations de routage. 
   Rencontres Francophones pour les Aspects Algorithmiques des Télécommunications — 
-  **ALGOTEL 2014** [[PDF]](https://hal.archives-ouvertes.fr/hal-00985637/file/algotel14.pdf)
+  [**ALGOTEL 2014**](http://hal.archives-ouvertes.fr/ALGOTEL2014/) [[PDF]](https://hal.archives-ouvertes.fr/hal-00985637/file/algotel14.pdf)
   
   * C. Gavoille, C. Glacet, N. Hanusse and D. Ilcinkas. 
   Algorithme distribué de routage compact en temps optimal. 
   Rencontres Francophones pour les Aspects Algorithmiques des Télécommunications — 
-  **ALGOTEL 2013** [[PDF]](https://hal.archives-ouvertes.fr/hal-00818445/file/algotel13.pdf)
+  [**ALGOTEL 2013**](http://hal.archives-ouvertes.fr/ALGOTEL2013/) [[PDF]](https://hal.archives-ouvertes.fr/hal-00818445/file/algotel13.pdf)
   
   * C. Glacet and L. Verdonk. Vers un routage compact distribué. 
   Rencontres Francophones pour les Aspects Algorithmiques des Télécommunications — 
-  **ALGOTEL 2012** [[PDF]](https://www.researchgate.net/profile/Christian_Glacet/publication/280751616_Vers_un_routage_compact_distribue/links/560e89fd08aec422d11164a1/Vers-un-routage-compact-distribue.pdf)
+  [**ALGOTEL 2012**](http://hal.archives-ouvertes.fr/ALGOTEL2012/) [[PDF]](https://www.researchgate.net/profile/Christian_Glacet/publication/280751616_Vers_un_routage_compact_distribue/links/560e89fd08aec422d11164a1/Vers-un-routage-compact-distribue.pdf)
 
   
 ## Co-Authors
 
-* [Nicolas Hanusse](https://dblp.uni-trier.de/pers/hd/h/Hanusse:Nicolas)
-* [David Ilcinkas](https://dblp.uni-trier.de/pers/hd/i/Ilcinkas:David) 
-* [Cyril Gavoille](https://dblp.uni-trier.de/pers/hd/g/Gavoille:Cyril)
-* [Andrzej Pelc](https://dblp.uni-trier.de/pers/hd/p/Pelc:Andrzej)
-* [Avery Miller](https://dblp.uni-trier.de/pers/hd/m/Miller:Avery)
-* [Marco Fiore](https://dblp.uni-trier.de/pers/hd/f/Fiore:Marco)
-* [Marco Gramaglia](https://dblp.uni-trier.de/pers/hd/g/Gramaglia:Marco)
-* [Luca Bedogni](https://dblp.uni-trier.de/pers/hd/b/Bedogni:Luca)
-* [Colette Johnen](https://dblp.uni-trier.de/pers/hd/j/Johnen:Colette)
-* [Lucas Verdonk](https://www.linkedin.com/in/lucas-verdonk-1818418b)
+* [Nicolas Hanusse (5)](https://dblp.uni-trier.de/pers/hd/h/Hanusse:Nicolas)
+* [David Ilcinkas (5)](https://dblp.uni-trier.de/pers/hd/i/Ilcinkas:David) 
+* [Andrzej Pelc (4)](https://dblp.uni-trier.de/pers/hd/p/Pelc:Andrzej)
+* [Avery Miller (4)](https://dblp.uni-trier.de/pers/hd/m/Miller:Avery)
+* [Cyril Gavoille (3)](https://dblp.uni-trier.de/pers/hd/g/Gavoille:Cyril)
+* [Marco Fiore (2)](https://dblp.uni-trier.de/pers/hd/f/Fiore:Marco)
+* [Marco Gramaglia (1)](https://dblp.uni-trier.de/pers/hd/g/Gramaglia:Marco)
+* [Luca Bedogni (1)](https://dblp.uni-trier.de/pers/hd/b/Bedogni:Luca)
+* [Lucas Verdonk (1)](https://www.linkedin.com/in/lucas-verdonk-1818418b)
+* [Colette Johnen (1)](https://dblp.uni-trier.de/pers/hd/j/Johnen:Colette)
+* And many others from the Euler-fire-project (An European project on the topic of routing schemes)
+  * A paper with a very brief sumup is available [here](https://ieeexplore.ieee.org/document/7956008)
   
 <!---------------LINKS--------------->
 [interactive]: https://mybinder.org/v2/gh/cglacet/Blog/master?filepath=python%2Fnotes.ipynb
