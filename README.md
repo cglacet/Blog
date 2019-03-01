@@ -2,15 +2,17 @@
 
 ## About me 
 
-You can find me either under the alias **cglacet** or using my real name on various communities
-[<img src="images/github.ico" height="20"  />][cglacet@github]
+You can find me on various communities under the alias **cglacet** 
+[<img src="images/github.ico" height="20" />][cglacet@github]
 [<img src="images/stackoverflow.ico" height="20" />][cglacet@stackoverflow]
-[<img src="images/dblp.ico" height="20"  />][cglacet@dblp]
-[<img src="images/scholar.ico" height="20"  />][cglacet@scholar]
-[<img src="images/research_gate.png" height="20"  />][cglacet@research_gate]
-[<img src="images/pypi.ico" height="20"  />][cglacet@pypi]
+[<img src="images/dblp.ico" height="20" />][cglacet@dblp]
+[<img src="images/scholar.ico" height="20" />][cglacet@scholar]
+[<img src="images/research_gate.png" height="20" />][cglacet@research_gate]
+[<img src="images/pypi.ico" height="20" />][cglacet@pypi]
 [<img src="images/exercism.io.png" height="20" />][cglacet@exercism.io]
-[<img src="images/linkedin.ico" height="20"  />][cglacet@linkedin]
+[<img src="images/linkedin.ico" height="20" />][cglacet@linkedin]
+[<img src="images/instagram.ico" height="20" />][cglacet@instagram]
+[<img src="images/500px.ico" height="20" />][cglacet@500px]
 
 <details>
  <summary>More about me</summary>
@@ -166,6 +168,8 @@ Publications ordered by themes then descending date of publication, but first, i
 [cglacet@research_gate]: https://www.researchgate.net/profile/Christian_Glacet
 [cglacet@linkedin]: https://www.linkedin.com/in/christian-glacet-7a606bb2/
 [cglacet@pypi]: https://pypi.org/user/cglacet/
+[cglacet@instagram]: https://www.instagram.com/cglacet/
+[cglacet@500px]: https://500px.com/cglacet
 
 [labri]: https://www.labri.fr/
 [kune]: http://kune.tech/
