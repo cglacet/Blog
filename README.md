@@ -1,4 +1,4 @@
-# My publications/notes on various subjects
+# My publications/notes on various topics
 
 ## About me 
 
