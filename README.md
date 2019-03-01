@@ -19,6 +19,7 @@ I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph
 
  * Most important journals/conferences I published to: **SODA**, **PODC**, **INFOCOM**, **TALG**, **DISC**.
  * I have an **Erdos number of 3** via Avery Miller -> Jeffrey Shallit ([find your distance][erdos number]).
+ <!--* I have a **Bacon number of 4** via Benjamin Daniel -> Manuel Ferrara -> Bill Bailey -->
  * The slides I made for my last presentation [*Time vs. Information Tradeoffs for Leader Election in Anonymous Trees.*](research/keynotes/Election_anonymous_trees.pdf)
  * My favorites computer science related **topics** are
     * discrete mathematics/algorithms,
