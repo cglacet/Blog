@@ -51,6 +51,8 @@ I'm currently working using both python and react-native, this is what I'm curre
     * [Python How to force object instantiation via Context Manager?][stackoverflow python context manager]
     * [What can cause the simple invocation of asyncio.new_event_loop() to hang?][stackoverflow python synchronize]
     * [Code review: currying a function][codereview python currying] (with an [incredible answer](https://codereview.stackexchange.com/a/214197/172628))
+    * [Is it possibe to compare values of a dictionary with an int without using dictionary comprehension?
+][stackoverflow python dict and operators]
 
 * **ES6 / React / React native**
   * [Create a theming tool](react-native/theme-provider/create_a_theming_tool.md#-create-a-theming-tools-for-react-native)
@@ -187,6 +189,7 @@ Publications ordered by themes then descending date of publication, but first, i
 [stackoverflow python context manager]: https://stackoverflow.com/a/54514410/1720199
 [stackoverflow python synchronize]: https://stackoverflow.com/a/54836393/1720199
 [codereview python currying]: https://codereview.stackexchange.com/q/214141/172628
+[stackoverflow python dict and operators]: https://stackoverflow.com/a/54937647/1720199
 [stackoverflow react props]: https://stackoverflow.com/q/54825692/1720199
 [stackoverflow react native animation]: https://stackoverflow.com/a/51106202/1720199
 
