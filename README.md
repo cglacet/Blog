@@ -27,13 +27,13 @@ I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph
     * and of course puzzle and riddles of any kind... yes this is related to computer science :D
  * My native language is French but I also know English
  * My native keyboard disposition is [azerty][azerty] but I also know [bépo][bépo]
- * My all time favorites:
+ * My all time favorite:
    * github repository is [pytudes][pytudes] by [Peter Norvig][norvig].
    * riddle is the [100 Prisoners and A light Bulb][100 prisoners].
    * programming language is Python.
-   * proof is [Mario bros is NP-hard][mario np hard]
+   * proof is [Mario bros is NP-hard][mario np hard].
    * talk is [How not to be ignorant][how not to be ignorant]
-     (from the same speaker: [Religions and babies][religion and babies])
+     (or, from the same speaker: [Religions and babies][religion and babies]).
 </details>
 
 ## Notes relative to computer programming
