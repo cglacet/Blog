@@ -1,8 +1,9 @@
-# My publications/notes on various subjects
+# My publications/notes on various topics
 
 ## About me 
 
 You can find me on various communities under the alias **cglacet** 
+[<img src="images/linkedin.ico" height="20" />][cglacet@linkedin]
 [<img src="images/github.ico" height="20" />][cglacet@github]
 [<img src="images/stackoverflow.ico" height="20" />][cglacet@stackoverflow]
 [<img src="images/dblp.ico" height="20" />][cglacet@dblp]
@@ -10,7 +11,8 @@ You can find me on various communities under the alias **cglacet**
 [<img src="images/research_gate.png" height="20" />][cglacet@research_gate]
 [<img src="images/pypi.ico" height="20" />][cglacet@pypi]
 [<img src="images/exercism.io.png" height="20" />][cglacet@exercism.io]
-[<img src="images/linkedin.ico" height="20" />][cglacet@linkedin]
+[<img src="images/repl.it.ico" height="20" />][cglacet@repl.it]
+[<img src="images/expo.ico" height="20" />][cglacet@expo]
 [<img src="images/instagram.ico" height="20" />][cglacet@instagram]
 [<img src="images/500px.ico" height="20" />][cglacet@500px]
 
@@ -165,6 +167,8 @@ Publications ordered by themes then descending date of publication, but first, i
 [cglacet@stackoverflow]: https://stackoverflow.com/users/1720199/cglacet
 [cglacet@exercism.io]: https://exercism.io/profiles/cglacet
 [cglacet@github]: https://github.com/cglacet
+[cglacet@expo]: https://expo.io/snacks/@cglacet
+[cglacet@repl.it]: https://repl.it/@ChristianGlacet
 [cglacet@dblp]: https://dblp.uni-trier.de/pers/hd/g/Glacet:Christian
 [cglacet@scholar]: https://scholar.google.fr/citations?user=hRsspqQAAAAJ&hl=fr&oi=ao
 [cglacet@research_gate]: https://www.researchgate.net/profile/Christian_Glacet
