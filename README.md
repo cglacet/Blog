@@ -30,7 +30,7 @@ I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph
     * design patterns and programming paradigms,
     * and of course puzzle and riddles of any kind... yes this is related to computer science :D
  * My native language is French but I also know English
- * My native keyboard disposition is [azerty][azerty] but I also know [bépo][bépo]
+ * My native keyboard layout is [azerty][azerty] but I also know [bépo][bépo]
  * My all time favorite:
    * github repository is [pytudes][pytudes] by [Peter Norvig][norvig].
    * riddle is the [100 Prisoners and A light Bulb][100 prisoners].
