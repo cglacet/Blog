@@ -2,6 +2,8 @@
 
 ## About me 
 
+I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph problems (mostly routing schemes). And I'm currently working at [Kune][kune].
+
 You can find me on various communities under the alias **cglacet** 
 [<img src="images/linkedin.ico" height="20" />][cglacet@linkedin]
 [<img src="images/github.ico" height="20" />][cglacet@github]
@@ -18,8 +20,6 @@ You can find me on various communities under the alias **cglacet**
 
 <details>
  <summary>More about me</summary>
- 
-I'm a former phd. student at [LaBRI][labri], I used to work on distributed graph problems (mostly routing schemes). And I'm currently working at [Kune][kune].
 
  * Most important journals/conferences I published to: **SODA**, **PODC**, **INFOCOM**, **TALG**, **DISC**.
  * I have an **Erdos number of 3** via Avery Miller -> Jeffrey Shallit ([find your distance][erdos number]). <!--* I have a **Bacon number of 4** via Benjamin Daniel -> Manuel Ferrara -> Bill Bailey -->
@@ -177,8 +177,8 @@ Publications ordered by themes then descending date of publication, but first, i
 [cglacet@instagram]: https://www.instagram.com/cglacet/
 [cglacet@500px]: https://500px.com/cglacet
 
-[labri]: https://www.labri.fr/
-[kune]: http://kune.tech/
+[labri]: https://www.labri.fr
+[kune]: http://kune.travel
 [erdos number]: https://mathscinet.ams.org/mathscinet/collaborationDistance.html
 
 [pytudes]: https://github.com/norvig/pytudes#pytudes
